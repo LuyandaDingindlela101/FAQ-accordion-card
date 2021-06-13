@@ -28,9 +28,12 @@ Users should be able to:
 
 ### Links
 - Solution URL: [Add solution URL here](https://github.com/LuyandaDingindlela101/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://3column-card-component.netlify.app/)
+- Live Site URL: [Add live site URL here](awesome-faq-accordion-card.netlify.app)
 
 ## Author
 
 - Website - [Luyanda Dingindlela](https://luyanda-portfolio.netlify.app/)
 - Frontend Mentor - [@LuyandaDingindlela101](https://www.frontendmentor.io/profile/LuyandaDingindlela101)
+
+## Acknowledgments
+- This is the article that helped me figure out how to get the functionality working...especially getting the animation on the collapse and expansion - (https://pineco.de/element-hiding-techniques-in-css/)

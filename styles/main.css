@@ -21,6 +21,7 @@ body {
 .faq-container {
      width: 90%;
      display: flex;
+     margin: 100px auto;
      max-width: 1000px;
      align-items: center;
      border-radius: 30px;
@@ -30,6 +31,7 @@ body {
 
 .faq-container .images-container {
      width: 35%;
+     height: 100%;
      display: flex;
      position: relative;
      align-items: center;
@@ -111,19 +113,40 @@ body {
      color: hsl(240, 6%, 50%);
 }
 
-
-
-
-
-
 .attribution { 
-     font-size: 11px; 
+     color: #ffffff;
      text-align: center; 
 }
 
 .attribution a {
-color: #ffffff;
-     border-radius: 5px; 
-     padding: 15px 20px;
-     background: hsl(228, 45%, 44%); 
+     color: #ffffff;
+     text-decoration: none;
+}
+
+/* MEDIA QUERRY FOR SCREENS FROM 0 - 600PX */
+@media screen and (max-width: 600px) {
+     .faq-container {
+          margin: 100px auto;
+          flex-direction: column;
+     }
+
+     .faq-container .images-container {
+          width: 100%;
+          padding: 50px;
+      }
+
+     .faq-container .images-container img:nth-child(1) {
+          left: 50%;
+          top: 0;
+          position: absolute;
+          transform: translate(-50%, -40%);
+     }
+
+     .faq-container .content-container {
+          width: 100%;
+     }
+
+     .faq-container .content-container .faq.active {
+          height: 120px;
+     }
 }
