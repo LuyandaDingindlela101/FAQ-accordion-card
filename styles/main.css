@@ -1,3 +1,7 @@
+:root {
+     --transition: all .5s ease-in-out;
+}
+
 * {
      margin: 0;
      padding: 0;
@@ -52,14 +56,27 @@ body {
 
 .faq-container .content-container .faq {
      height: 50px;
+     cursor: pointer;
      overflow: hidden;
      padding-bottom: 20px;
      transition: all .5s ease-in-out;
      border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
+.faq-container .content-container .faq:hover .faq-header h2 {
+     color: #f47c57;     
+}
+
+.faq-container .content-container .faq.active .faq-header h2 {
+     font-weight: 700;
+}
+
 .faq-container .content-container .faq.active {
-     height: unset;
+     height: 100px;
+}
+
+.faq-container .content-container .faq.active .faq-body {
+     visibility: visible;
 }
 
 
@@ -82,10 +99,11 @@ body {
      font-size: 14px;
      font-weight: 400;
      color: hsl(237, 12%, 33%);
+     transition: all .5s ease-in-out;
 }
 
 .faq-container .content-container .faq .faq-body {
-
+     visibility: hidden;
 }
 
 .faq-container .content-container .faq .faq-body p {
