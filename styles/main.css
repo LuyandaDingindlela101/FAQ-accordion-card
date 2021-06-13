@@ -1,0 +1,111 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     width: 100%;
+     display: grid;
+     min-height: 100vh;
+     place-content: center;
+     background: rgb(175,103,224);
+     font-family: 'Kumbh Sans', sans-serif;
+     background: linear-gradient(135deg, rgba(175,103,224,1) 0%, rgba(101,101,231,1) 100%);
+}
+
+.faq-container {
+     width: 90%;
+     display: flex;
+     max-width: 1000px;
+     align-items: center;
+     border-radius: 30px;
+     background: #ffffff;
+     justify-content: space-between;
+}
+
+.faq-container .images-container {
+     width: 35%;
+     display: flex;
+     position: relative;
+     align-items: center;
+     justify-content: flex-start;
+     background: url(../images/bg-pattern-desktop.svg) no-repeat top;
+     background-size: cover;
+}
+
+.faq-container .images-container img:nth-child(1) {
+     left: 0;
+     top: 50%;
+     position: absolute;
+     transform: translateX(-50%);
+}
+
+.faq-container .images-container img:nth-child(2) {
+     width: 100%;
+}
+
+.faq-container .content-container { 
+     width: 65%;
+     padding: 50px;
+}
+
+.faq-container .content-container .faq {
+     height: 50px;
+     overflow: hidden;
+     padding-bottom: 20px;
+     transition: all .5s ease-in-out;
+     border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.faq-container .content-container .faq.active {
+     height: unset;
+}
+
+
+.faq-container .content-container .faq.active .faq-header img {
+     transform: rotate(180deg);
+}
+
+.faq-container .content-container .faq .faq-header {
+     display: flex;
+     align-items: center;
+     padding: 20px 20px 20px 0;
+     justify-content: space-between;
+}
+
+.faq-container .content-container .faq .faq-header img {
+     transition: all .5s ease-in-out;
+}
+
+.faq-container .content-container .faq .faq-header h2 {
+     font-size: 14px;
+     font-weight: 400;
+     color: hsl(237, 12%, 33%);
+}
+
+.faq-container .content-container .faq .faq-body {
+
+}
+
+.faq-container .content-container .faq .faq-body p {
+     font-size: 12px;
+     color: hsl(240, 6%, 50%);
+}
+
+
+
+
+
+
+.attribution { 
+     font-size: 11px; 
+     text-align: center; 
+}
+
+.attribution a {
+color: #ffffff;
+     border-radius: 5px; 
+     padding: 15px 20px;
+     background: hsl(228, 45%, 44%); 
+}
