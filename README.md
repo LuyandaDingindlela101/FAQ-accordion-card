@@ -11,7 +11,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,8 +26,8 @@ Users should be able to:
 ![](./images/challenge-preview.png)
 
 ### Links
-- Solution URL: [Add solution URL here](https://github.com/LuyandaDingindlela101/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](awesome-faq-accordion-card.netlify.app)
+- Solution URL: [Github link](https://github.com/LuyandaDingindlela101/3-column-preview-card-component)
+- Live Site URL: [Netlify link](awesome-faq-accordion-card.netlify.app)
 
 ## Author
 
